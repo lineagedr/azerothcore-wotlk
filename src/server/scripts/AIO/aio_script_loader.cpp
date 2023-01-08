@@ -15,21 +15,14 @@
  * with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-// This is where scripts' loading functions should be declared:
+// This is where AIO scripts' loading functions should be declared:
 // void MyExampleScript()
+void AddSC_ExampleAIO();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
-void AddCustomScripts()
-{
-    // MyExampleScript()
-}
-
-/* This is where AIO scripts' loading functions should be declared. */
-void AddSC_ExampleAIO();
-
 void AddAIOScripts()
 {
-    /* This is where AIO scripts should be added. */
+    // MyExampleScript()
     AddSC_ExampleAIO();
 }
